@@ -1,0 +1,10 @@
+@namespace("com.my.package.two")
+protocol ProtocolTwo {
+    record MyRecord {
+        string id;
+    }
+
+    record UsesMyRecord {
+        com.my.package.one.MyRecord myRecord;
+    }
+}

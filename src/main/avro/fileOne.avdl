@@ -1,0 +1,6 @@
+@namespace("com.my.package.one")
+protocol ProtocolOne {
+    record MyRecord {
+        string id;
+    }
+}
